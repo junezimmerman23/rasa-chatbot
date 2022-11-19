@@ -5,6 +5,9 @@
   - utter_food
 * affirm
   - utter_foodoptions
+* thanks
+  - utter_yourwelcome
+  - utter_goodbye
 
 ## armor path
 * greet
@@ -45,11 +48,3 @@
   - utter_weapon
 * affirm
   - utter_weaponoptions
-
-## say goodbye
-* goodbye
-  - utter_goodbye
-
-## bot challenge
-* bot_challenge
-  - utter_iamabot

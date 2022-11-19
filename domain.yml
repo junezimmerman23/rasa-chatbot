@@ -13,10 +13,10 @@ responses:
   - text: "Hey! What can I get for you?"
 
   utter_food:
-  - "Would you like something to eat?"
+  - text: "Would you like something to eat?"
 
   utter_equipment:
-  - "You want a weapon and some armor?"
+  - text: "You want a weapon and some armor?"
 
   utter_weapon:
   - text: "You need a weapon?"
@@ -30,7 +30,7 @@ responses:
   utter_generalinventory:
   - text: "We've got food, weapons, and armor."
 
-  utter_weaponequipmentoptions:
+  utter_equipmentoptions:
   - text: "We've got weapons and armor. What do you need?"
 
   utter_weaponoptions:
@@ -41,6 +41,12 @@ responses:
 
   utter_foodoptions:
   - text: "food and stufajsdkaldg;rewa"
+
+  utter_yourwelcome:
+  - text: "Sure anytime"
+
+  utter_goodbye:
+  - text: "See you later"
 
 session_config:
   session_expiration_time: 60

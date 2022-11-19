@@ -9,13 +9,18 @@
 - greet
 - greetings
 
-
 ## intent:goodbye
 - bye
 - goodbye
 - see you around
 - see you later
 - see ya
+
+## intent:thanks
+- thanks
+- thank you
+- I appreciate it
+- thanks a lot
 
 ## intent:affirm
 - yes
@@ -40,30 +45,23 @@
 - not really
 - nope
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
+## intent:food
+- I'm really hungry
+- I'm starving
+- I need food
+- Do you have any food
+- I really want a steak
 
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
+## intent:armor
+- I need some armor
+- I want a helmet
+- I need a shield
+- I got hurt
 
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+## intent:weapon
+- I need a sword
+- How about a sword
+- I need to get rid of my enemies
+
+## intent:equipment
+- I need some help
