@@ -3,29 +3,44 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - food
+  - equipment
+  - armor
+  - weapon
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! What can I get for you?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_food:
+  - "Would you like something to eat?"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_equipment:
+  - "You want a weapon and some armor?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_weapon:
+  - text: "You need a weapon?"
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_armor:
+  - text: "You need some armor?"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_iamamerchant:
+  - text: "I'm the local merchant. What can I get for you?"
+
+  utter_generalinventory:
+  - text: "We've got food, weapons, and armor."
+
+  utter_weaponequipmentoptions:
+  - text: "We've got weapons and armor. What do you need?"
+
+  utter_weaponoptions:
+  - text: "weapons and stufeajklfds"
+
+  utter_armoroptions:
+  - text: "armor and stufgjaskglaf;."
+
+  utter_foodoptions:
+  - text: "food and stufajsdkaldg;rewa"
 
 session_config:
   session_expiration_time: 60

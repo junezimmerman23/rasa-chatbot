@@ -1,26 +1,50 @@
-## happy path
+## food path
 * greet
   - utter_greet
-* mood_great
-  - utter_happy
-
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
+* food
+  - utter_food
 * affirm
-  - utter_happy
+  - utter_foodoptions
 
-## sad path 2
+## armor path
 * greet
   - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
+* armor
+  - utter_armor
+* affirm
+  - utter_armoroptions
+
+## weapon path
+* greet
+  - utter_greet
+* weapon
+  - utter_weapon
+* affirm
+  - utter_weaponoptions
+
+## equipment path 1
+* greet
+  - utter_greet
+* equipment
+  - utter_equipment
+* affirm
+  - utter_equipmentoptions
+* armor
+  - utter_armor
+* affirm
+  - utter_armoroptions
+
+## equipment path 2
+* greet
+  - utter_greet
+* equipment
+  - utter_equipment
+* affirm
+  - utter_equipmentoptions
+* weapon
+  - utter_weapon
+* affirm
+  - utter_weaponoptions
 
 ## say goodbye
 * goodbye

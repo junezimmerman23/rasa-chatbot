@@ -5,12 +5,17 @@
 - good morning
 - good evening
 - hey there
+- sup
+- greet
+- greetings
+
 
 ## intent:goodbye
 - bye
 - goodbye
 - see you around
 - see you later
+- see ya
 
 ## intent:affirm
 - yes
@@ -18,6 +23,13 @@
 - of course
 - that sounds good
 - correct
+- yeah
+- yup
+- that's right
+- correct
+- sure
+- sounds good
+- that's fine
 
 ## intent:deny
 - no
@@ -26,6 +38,7 @@
 - don't like that
 - no way
 - not really
+- nope
 
 ## intent:mood_great
 - perfect
