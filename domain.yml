@@ -8,6 +8,23 @@ intents:
   - armor
   - weapon
 
+entities:
+  - food
+  - armor
+  - weapon
+
+slots:
+  food:
+    type: text
+    initial_value: food
+  armor:
+    type: text
+    initial_value: armor
+  weapon:
+    type: text
+    initial_value: weapon
+
+
 responses:
   utter_greet:
   - text: "Hey! What can I get for you?"
@@ -34,13 +51,13 @@ responses:
   - text: "We've got weapons and armor. What do you need?"
 
   utter_weaponoptions:
-  - text: "weapons and stufeajklfds"
+  - text: "Here's your {weapon}. That will be $100."
 
   utter_armoroptions:
-  - text: "armor and stufgjaskglaf;."
+  - text: "Here's your {armor}. That will be $90."
 
   utter_foodoptions:
-  - text: "food and stufajsdkaldg;rewa"
+  - text: "Here's your {food}. That will be $20"
 
   utter_yourwelcome:
   - text: "Sure anytime"
