@@ -5,6 +5,8 @@
   - utter_food
 * affirm
   - utter_foodoptions
+* payment
+  - utter_complete
 * thanks
   - utter_yourwelcome
   - utter_goodbye
@@ -16,6 +18,9 @@
   - utter_armor
 * affirm
   - utter_armoroptions
+* thanks
+  - utter_yourwelcome
+  - utter_goodbye
 
 ## weapon path
 * greet
@@ -24,6 +29,9 @@
   - utter_weapon
 * affirm
   - utter_weaponoptions
+* thanks
+  - utter_yourwelcome
+  - utter_goodbye
 
 ## equipment path 1
 * greet

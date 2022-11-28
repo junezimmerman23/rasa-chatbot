@@ -65,3 +65,9 @@
 
 ## intent:equipment
 - I need some help
+
+## intent:payment
+- Ok here take my money
+- Here you go
+- I'm paying cash
+- Here's my credit card

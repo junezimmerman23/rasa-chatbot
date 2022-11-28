@@ -59,6 +59,9 @@ responses:
   utter_foodoptions:
   - text: "Here's your {food}. That will be $20"
 
+  utter_complete:
+  - text: "Thanks. Here's your change."
+
   utter_yourwelcome:
   - text: "Sure anytime"
 
