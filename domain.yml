@@ -3,6 +3,7 @@ intents:
   - goodbye
   - affirm
   - deny
+  - negotiate
   - food
   - equipment
   - armor
@@ -10,43 +11,46 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey! What can I get for you?"
+    - text: "Hey! What can I get for you?"
 
   utter_food:
-  - text: "Would you like something to eat?"
+    - text: "Would you like something to eat?"
 
   utter_equipment:
-  - text: "You want a weapon and some armor?"
+    - text: "You want a weapon and some armor?"
 
   utter_weapon:
-  - text: "You need a weapon?"
+    - text: "You need a weapon?"
 
   utter_armor:
-  - text: "You need some armor?"
+    - text: "You need some armor?"
 
   utter_iamamerchant:
-  - text: "I'm the local merchant. What can I get for you?"
+    - text: "I'm the local merchant. What can I get for you?"
 
   utter_generalinventory:
-  - text: "We've got food, weapons, and armor."
+    - text: "We've got food, weapons, and armor."
 
   utter_equipmentoptions:
-  - text: "We've got weapons and armor. What do you need?"
+    - text: "We've got weapons and armor. What do you need?"
 
   utter_weaponoptions:
-  - text: "weapons and stufeajklfds"
+    - text: "weapons and stufeajklfds"
 
   utter_armoroptions:
-  - text: "armor and stufgjaskglaf;."
+    - text: "armor and stufgjaskglaf;."
 
   utter_foodoptions:
-  - text: "food and stufajsdkaldg;rewa"
+    - text: "food and stufajsdkaldg;rewa"
 
   utter_yourwelcome:
-  - text: "Sure anytime"
+    - text: "Sure anytime"
 
   utter_goodbye:
-  - text: "See you later"
+    - text: "See you later"
+
+  utter_negotiate:
+    - text: "I'm not sure I can do that."
 
 session_config:
   session_expiration_time: 60
