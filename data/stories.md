@@ -5,6 +5,8 @@
   - utter_food
 * affirm
   - utter_foodoptions
+* negotiate
+  - utter_negotiate
 * payment
   - utter_complete
 * thanks
@@ -32,6 +34,15 @@
 * thanks
   - utter_yourwelcome
   - utter_goodbye
+
+## weapon path
+* greet
+  - utter_greet
+* weapon
+  - utter_weapon
+* deny
+  - utter_generalinventory
+
 
 ## equipment path 1
 * greet

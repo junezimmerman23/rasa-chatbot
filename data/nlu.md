@@ -71,3 +71,9 @@
 - Here you go
 - I'm paying cash
 - Here's my credit card
+
+## intent: negotiate
+- That's too much.
+- I won't pay that much.
+- Here's 10 dollars.
+- I'll give you 15 dollars.
