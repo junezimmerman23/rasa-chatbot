@@ -48,20 +48,26 @@
 ## intent:food
 - I'm really hungry
 - I'm starving
-- I need food
-- Do you have any food
-- I really want a steak
+- I need [food](food)
+- Do you have any [food](food)
+- I really want a [steak](food)
 
 ## intent:armor
-- I need some armor
-- I want a helmet
-- I need a shield
+- I need some [armor](armor)
+- I want a [helmet](armor)
+- I need a [shield](armor)
 - I got hurt
 
 ## intent:weapon
-- I need a sword
-- How about a sword
+- I need a [sword](weapon)
+- How about a [sword](weapon)
 - I need to get rid of my enemies
 
 ## intent:equipment
 - I need some help
+
+## intent:payment
+- Ok here take my money
+- Here you go
+- I'm paying cash
+- Here's my credit card

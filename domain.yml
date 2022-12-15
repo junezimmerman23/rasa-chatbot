@@ -9,6 +9,22 @@ intents:
   - armor
   - weapon
 
+entities:
+  - food
+  - armor
+  - weapon
+
+slots:
+  food:
+    type: text
+    initial_value: food
+  armor:
+    type: text
+    initial_value: armor
+  weapon:
+    type: text
+    initial_value: weapon
+
 responses:
   utter_greet:
     - text: "Hey! What can I get for you?"
